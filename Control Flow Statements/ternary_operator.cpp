@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int num;
+    cout<<"Enter a number: ";
+    cin>>num;
+
+    cout<<(num%2==0 ? "Even number" : "Odd number")<<endl;
+    return 0;
+}
